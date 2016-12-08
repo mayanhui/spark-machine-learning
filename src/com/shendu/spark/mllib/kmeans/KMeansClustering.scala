@@ -59,6 +59,8 @@ object KMeansClustering {
       predictedClusterIndex)
     })
     
+    //parsedTestData.saveAsTextFile("examples/kmeans/out/test_result")
+    
     println("Spark MLlib K-means clustering test finished.")
   }
   def isColumnNameLine(line:String):Boolean = {

@@ -24,4 +24,4 @@ build
 bin
 .cache
 .cache-main
-examples/out
+examples/*/out
