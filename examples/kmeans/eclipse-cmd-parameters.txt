@@ -1,4 +1,4 @@
-F:\workspace-scala\spark-coding\src\com\shendu\spark\mllib\wholesale_training.txt F:\workspace-scala\spark-coding\src\com\shendu\spark\mllib\wholesale_test.txt 8 10 3
+examples/kmeans/wholesale_training.txt examples/kmeans/wholesale_test.txt 8 10 3
 
 
 五个参数的含义：
