@@ -1,0 +1,12 @@
+Channel	Region	Fresh	Milk	Grocery	Frozen	Detergents_Paper	Delicassen
+
+Channel	频道
+Region	区域
+Fresh	肉鲜产品
+Milk	奶制品
+Grocery	杂货
+Frozen	冷冻产品
+Detergents_Paper 清洁纸 	
+Delicassen  熟食
+
+每个子项的年度支出数量

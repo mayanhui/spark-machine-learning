@@ -1,0 +1,9 @@
+F:\workspace-scala\spark-coding\src\com\shendu\spark\mllib\wholesale_training.txt F:\workspace-scala\spark-coding\src\com\shendu\spark\mllib\wholesale_test.txt 8 10 3
+
+
+五个参数的含义：
+1 训练数据集文件路径
+2 测试数据集文件路径
+3 聚类的个数
+4 K-means 算法的迭代次数
+5 K-means 算法 run 的次数
