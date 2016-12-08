@@ -12,7 +12,8 @@ object Distinct {
     conf.setMaster("local")
     val sc = new SparkContext(conf)
     val distinct = sc.textFile(args(0))
-    val result = distinct.filter(_.trim().length > 0).map(line => (line.trim, "")).
+    val result = distinct.filter(_.trim().length > 0).
+      map(line => (line.trim, "")).
       groupByKey().sortByKey().keys.collect.foreach(println _)
     
     //result.saveAsTextFile(args(1))
