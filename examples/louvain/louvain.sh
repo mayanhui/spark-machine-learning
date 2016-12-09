@@ -9,6 +9,10 @@ echo "Time in seconds: ${T}"
 
 bin/louvain -i examples/small_edges.tsv -o test_output --edgedelimiter "\t" 2> stderr.txt
 
--i F:\workspace-scala\loovain\examples\small_edges.tsv -o F:\workspace-scala\loovain\examples\out --edgedelimiter "\t"
+#-i F:\workspace-scala\loovain\examples\small_edges.tsv -o F:\workspace-scala\loovain\examples\out --edgedelimiter "\t"
 
+#{small}
+#-i examples/louvain/small_edges.tsv -o examples/louvain/out -d "\t" -p 1
 
+#{weibo}
+-i /home/zkpk/Desktop/weibo-10k-SNA.tsv -o examples/louvain/out -d "\t" -p 1
